@@ -60,6 +60,33 @@ main h3{
 .imagen{
     width: 60%;
 }
+/*este es el estilo de la animacion*/
+
+.container{
+    border-radius: 10px;
+    box-shadow: 5px 8px 12px  black;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out ;
+}
+
+.container :hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37 px black;
+
+}
+
+.container p{
+    font-size: 2rem;
+color: rgb(34, 33, 33);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+text-shadow: 0 0 8 px  black;
+
+}
 
 /*footer*/
 footer{
